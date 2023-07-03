@@ -12,4 +12,12 @@ public class Controller {
     public String home(){
         return "A18105615-Dulanto Valeria";
     }
+    @GetMapping(path="/codigo")
+    public String home(){
+        return "A18105615";
+    }
+    @GetMapping(path="/idat/nombre-completo")
+    public String home(){
+        return "Dulanto Valeria";
+    }
 }
